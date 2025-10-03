@@ -2,7 +2,7 @@ Die goob;
  void setup()
   {
     goob = new Die(60,300);
-    size (550,900);
+    size (600,900);
       noLoop();
   }
   void draw()
