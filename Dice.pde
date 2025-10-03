@@ -2,14 +2,14 @@ Die goob;
  void setup()
   {
     goob = new Die(60,300);
-    size (600,900);
+    size (600,890);
       noLoop();
   }
   void draw()
   {
     int total = 0;
   for (int i = 0; i < 10; i++){
-    for (int c = 0; c < 10; c++){
+    for (int c = 0; c < 7; c++){
       int x = 60 + c * 80;
       int y = 60 + i * 80;
      Die goob = new Die(x,y);
